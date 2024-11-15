@@ -1,0 +1,73 @@
+.blog .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 225, 203);
+    height: 350px;
+    padding-bottom: 100px;
+}
+.blog .banner .search{
+    position: relative;
+    width: 30%;
+}
+.blog .banner .search input{
+    width: 100%;
+    padding: 10px;
+    border-radius:50px;
+    border: 0;
+}
+.blog .banner .search .button{
+    position: absolute;
+    right: 0;
+    top: 2.5px;
+
+}
+.blog button{
+    margin-right: -15px;
+    border-radius: 50px;
+    background-color: rgb(96, 225, 203);
+    border: 0;
+}
+.blog .banner .search .button img{
+    width: 25px;
+}
+img {
+    width: 100%;
+}
+.blog .banner .search .button h3{
+    display: none;
+    
+}
+.smaller{
+    width: 1250px;
+    margin: auto;
+    margin-top: 50px;
+}
+.smaller .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.smaller .container .box{
+    width: 251px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 50px;
+    padding-bottom: 25px;
+    border-radius: 25px;
+}
+.smaller .box h1{
+    font-size: medium;
+}
+.smaller .box p{
+    font-size: small;
+}
+.smaller .button img{
+    display: none;
+    
+}
+.smaller img{
+    border-radius: 25px 25px 0 0    ;
+}
